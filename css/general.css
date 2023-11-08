@@ -130,6 +130,7 @@ body {
   color: #cf711f;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
+  text-transform: uppercase;
 }
 
 .btn:link,
