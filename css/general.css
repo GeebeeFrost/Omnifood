@@ -83,6 +83,11 @@ body {
   column-gap: 6.4rem;
 }
 
+/* Add margin bottom to ONLY grids that have other grids under them */
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
