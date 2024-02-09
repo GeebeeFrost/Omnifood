@@ -64,6 +64,7 @@ Medium: 11px
 html {
   /* Setting the root font-size to 10px so that subsequently
       we can scale up using rems */
+  /* 10px / 16px = 0.625 = 62.5% */
   font-size: 62.5%;
   /* Use percentage in case of user changing the browser font size */
 }
